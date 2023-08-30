@@ -1,0 +1,34 @@
+# Preferred SPP velocity (Multiply it with 0.010000 to get its Value in m/s)
+V_Flock=400.000000
+# Maximum velocity (Multiply it with 0.010000 to get its Value in m/s)
+V_Max=700.000000
+# Equilibrium distance (Multiply it with 0.010000 to get its Value in m)
+R_0=3500.000000
+# Shill dist offset (Multiply it with 0.010000 to get its Value in m)
+R_0_Shill=30.000000
+# Slope of repulsion (Multiply it with 1000.000000 to get its Value in 1/s)
+Slope_Rep=0.370000
+# Slope of attraction (Multiply it with 10000.000000 to get its Value in 1/s)
+Slope_Att=0.000800
+# Slope of alignment (Multiply it with 1000.000000 to get its Value in -)
+Slope_Align=0.036000
+# Order of alignment error (-)
+Alpha=1.000000
+# Slope of wall (1/s)
+Slope_Shill=3.550000
+# Velocity of shill agents (Multiply it with 0.010000 to get its Value in m/s)
+V_Shill=1362.174000
+# Acc limit of shill (Multiply it with 0.010000 to get its Value in m/s^2)
+Acc_Shill=5300.000000
+# Size of neighbourhood (-)
+Size_Neighbourhood=15.000000
+# Arena Radius (Multiply it with 0.010000 to get its Value in m)
+ArenaRadius=25000.000000
+# Arena Center X (Multiply it with 0.010000 to get its Value in m)
+ArenaCenterX=0.000000
+# Arena Center Y (Multiply it with 0.010000 to get its Value in m)
+ArenaCenterY=0.000000
+# Shape of the arena (Multiply it with 0.000000 to get its real Value)
+ArenaShape=0.000000
+# Number of dimensions in the simulation (2 or 3)
+Dim=2.000000
