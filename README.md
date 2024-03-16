@@ -4,8 +4,10 @@
 
 ## Single Robot
 
-![截屏2024-03-16 02.23.18](./README.assets/截屏2024-03-16 02.23.18.png)
+![single](./README.assets/single.png)
+
+> /Robot_Simulation/Single-Robot/ANN/controllers/thymio_manual_control/video
 
 ## Multi Robot
 
-![截屏2022-12-22 15.46.59](./README.assets/截屏2022-12-22 15.46.59.png)
+![multi](./README.assets/multi.png)
