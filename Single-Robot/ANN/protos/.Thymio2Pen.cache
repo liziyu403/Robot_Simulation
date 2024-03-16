@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 36472bccfd7db479afc5302a93743029
+needsRobotAncestor: 1
+baseType: Pen
+slotType: 
+parameters: name,leadSize,inkColor
+tags: 
+license:  Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+licenseUrl:  https://cyberbotics.com/webots_assets_license
+documentationUrl: 
+info: Pen\sdesigned\sto\sbe\sinserted\sdirectly\sinto\sthe\sThymio\sII's\sbodySlot\sfield\ncf.\shttps://aseba.wikidot.com/fr:thymiodrawing

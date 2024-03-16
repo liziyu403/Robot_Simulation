@@ -1,0 +1,54 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  basicTimeStep 10
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.9974667478449253 -0.06659567611521533 -0.02500205724386359 5.563218130427012
+  position -0.10731179539706495 0.7937852343499734 1.3663927637026958
+  follow "thymio2"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.0218566 -2.22045e-16 0.0874771
+  rotation 0 1 0 0.202899
+  floorTileSize 1 1
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2021b/projects/robots/mobsya/thymio/worlds/textures/paper.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+Thymio2 {
+  hidden position_0_0 323.0269912270678
+  hidden position_0_1 392.4867861666242
+  hidden rotation_1 -1 0 0 3.6986447462706864
+  hidden rotation_2 0.9999999999999999 0 0 2.929297121489838
+  translation -0.24734 -0.00173846 0.325664
+  rotation -0.04781018694759252 0.9988450405086858 0.004771904780915302 0.19896499753837027
+  controller "thymio_manual_control"
+  window "thymio2"
+  bodySlot [
+    Thymio2Pen {
+    }
+  ]
+}
+CardboardBox {
+  translation -0.116651 0.03 0.399843
+  size 0.02 0.02 0.02
+}

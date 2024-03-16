@@ -1,0 +1,180 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  basicTimeStep 10
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.4146410473896755 -0.8668305804561086 -0.2769071082614505 1.5117672301529341
+  position -3.4045982153377166 2.8337025199441137 1.038033084612648
+  follow "Thymio II"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  radius 1.15
+}
+DEF Thymio Thymio2 {
+  hidden position_0_0 11550.503734169983
+  hidden position_0_1 -6598.943108966354
+  hidden linearVelocity_0 5.068367719066875e-15 -1.7763568394002506e-16 1.5830871281902355e-15
+  hidden angularVelocity_0 1.0484193606410683e-15 -4.556710215472837e-15 8.137033025119056e-17
+  hidden rotation_1 -1 2.3809369834058756e-12 -4.895238716330129e-13 3.8492338185111556
+  hidden linearVelocity_1 -4.2808446193423546e-15 5.087400655510916e-17 2.301429207220971e-15
+  hidden angularVelocity_1 1.7636931264126169e-15 9.818149468836726e-16 2.632215986915615e-16
+  hidden rotation_2 -1 0 0 3.292133473864069
+  hidden linearVelocity_2 1.767315321728806e-15 7.9112562484471e-17 -3.193167238337296e-15
+  hidden angularVelocity_2 -2.4448588156427334e-15 -4.564710736494536e-15 1.9217614573802178e-16
+  translation -0.9752192652750274 -2.0067819525168562e-05 -0.4693926816351125
+  rotation -0.010155370483003207 0.9999371395258085 0.004752414891028788 0.875427855354728
+  name "Thymio"
+  controller "thymio_manual_control"
+  controllerArgs [
+    ""
+  ]
+  supervisor TRUE
+  window "thymio2"
+  bodySlot [
+    Lidar {
+      translation 0 0.06 0
+      horizontalResolution 360
+      fieldOfView 6.28
+      numberOfLayers 1
+      noise 0.004
+      resolution 0.017
+    }
+  ]
+}
+Wall {
+  translation -0.25 0 0.25
+  size 1 0.1 0.01
+}
+Wall {
+  translation -0.75 0 0
+  name "wall(12)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0 0 -0.25
+  name "wall(5)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0.25 0 0.5
+  name "wall(8)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0.5 0 0.25
+  name "wall(7)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0.25 0 -0.5
+  name "wall(15)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0.75 0 0.25
+  name "wall(18)"
+  size 0.01 0.1 1
+}
+Wall {
+  translation -0.25 0 -0.5
+  name "wall(14)"
+  size 0.01 0.1 0.5
+}
+Wall {
+  translation 0.01 0 -0.01
+  name "wall(17)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation 0.5 0 -0.25
+  name "wall(16)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation 0.5 0 0.75
+  name "wall(19)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation -0.5 0 -0.25
+  name "wall(13)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation 0 0 -0.75
+  name "wall(6)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation -0.2 0 -0.69
+  rotation 0 1 0 -2.2831853071795862
+  name "wall(1)"
+  size 0.15 0.1 0.01
+}
+Wall {
+  translation -0.7 0 -0.19
+  rotation 0 1 0 -2.2831853071795862
+  name "wall(2)"
+  size 0.15 0.1 0.01
+}
+Wall {
+  translation -0.05 0 -0.06
+  rotation 0 1 0 0.8
+  name "wall(21)"
+  size 0.15 0.1 0.01
+}
+Wall {
+  translation 0.7 0 0.69
+  rotation 0 1 0 0.8
+  name "wall(22)"
+  size 0.15 0.1 0.01
+}
+Wall {
+  translation 0.205 0 -0.7
+  rotation 0 1 0 2.28319
+  name "wall(3)"
+  size 0.14 0.1 0.01
+}
+Wall {
+  translation 0.7 0 -0.2
+  rotation 0 1 0 2.28319
+  name "wall(4)"
+  size 0.14 0.1 0.01
+}
+Wall {
+  translation 0.45 0 0.05
+  rotation 0 1 0 2.28319
+  name "wall(9)"
+  size 0.14 0.1 0.01
+}
+Wall {
+  translation -0.7 0 0.2
+  rotation 0 1 0 2.34
+  name "wall(10)"
+  size 0.14 0.1 0.01
+}
+Wall {
+  translation 0.3 0 0.7
+  rotation 0 1 0 2.34
+  name "wall(11)"
+  size 0.14 0.1 0.01
+}
+Wall {
+  translation 0.05 0 -0.058
+  rotation 0 1 0 2.34
+  name "wall(20)"
+  size 0.14 0.1 0.01
+}

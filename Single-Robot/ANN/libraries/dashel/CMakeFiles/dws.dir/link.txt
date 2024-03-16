@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/dws.dir/examples/dws.cpp.o  -o dws -Wl,-rpath,/home/travis/build/omichel/webots/projects/robots/mobsya/thymio/libraries/dashel libdashel.so.1.1.0 -ludev 

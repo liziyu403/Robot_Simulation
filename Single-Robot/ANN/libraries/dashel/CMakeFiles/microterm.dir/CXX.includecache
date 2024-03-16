@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/omichel/webots/projects/robots/mobsya/thymio/libraries/dashel-src/dashel/dashel.h
+string
+-
+set
+-
+map
+-
+vector
+-
+deque
+-
+stdexcept
+-
+
+/home/travis/build/omichel/webots/projects/robots/mobsya/thymio/libraries/dashel-src/examples/microterm.cpp
+dashel/dashel.h
+-
+iostream
+-
+cassert
+-
+

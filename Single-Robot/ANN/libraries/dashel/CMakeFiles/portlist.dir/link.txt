@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/portlist.dir/examples/portlist.cpp.o  -o portlist -Wl,-rpath,/home/travis/build/omichel/webots/projects/robots/mobsya/thymio/libraries/dashel libdashel.so.1.1.0 -ludev 

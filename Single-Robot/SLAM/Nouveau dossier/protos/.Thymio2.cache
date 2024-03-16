@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 43c5f6183e92a6755d21de22a5356c7b
+needsRobotAncestor: 1
+baseType: Robot
+slotType: 
+parameters: translation,rotation,name,controller,controllerArgs,customData,supervisor,synchronization,window,contactMaterial,castLight,bodySlot
+tags: static
+license:  Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+licenseUrl:  https://cyberbotics.com/webots_assets_license
+documentationUrl: https://www.cyberbotics.com/doc/guide/surveyor
+info: Thymio\sII\smobile\srobot.

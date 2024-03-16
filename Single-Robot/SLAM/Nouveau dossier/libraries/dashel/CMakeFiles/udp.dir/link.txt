@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/udp.dir/examples/udp.cpp.o  -o udp -Wl,-rpath,/home/travis/build/omichel/webots/projects/robots/mobsya/thymio/libraries/dashel libdashel.so.1.1.0 -ludev 

@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: a5986befe15fb9aff1b08e629555ed9f
+needsRobotAncestor: 1
+baseType: LED
+slotType: 
+parameters: name,translations,rotations,textureUrls,sizes,level,color,lightPosition
+tags: hidden,static
+license:  Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+licenseUrl:  https://cyberbotics.com/webots_assets_license
+documentationUrl: 
+info: 

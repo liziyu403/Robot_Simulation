@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/microterm.dir/examples/microterm.cpp.o  -o microterm -Wl,-rpath,/home/travis/build/omichel/webots/projects/robots/mobsya/thymio/libraries/dashel libdashel.so.1.1.0 -ludev 
